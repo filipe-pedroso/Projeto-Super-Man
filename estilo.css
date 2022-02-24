@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+#myCanvas{
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+}
+#header-img{
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+}
+#header-h1{
+    text-align: center;
+    margin-top: -100px;
+    padding-bottom: 200px;
+    font-size: 50px;
+    color: red;
+    text-shadow: 4px 4px 3px yellow;
+}
+.header-li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+#header-ul{
+    background: rgba(43, 43, 43, 0.6);
+    text-align: right;
+    padding: 10px;
+    margin-top: 0;
+}
+.header-li-a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    transition: color .5s linear;
+}
+.header-li-a:hover{
+    color: grey;
+}
+.header-li-a:active{
+    color: grey;
+}
+main{
+    text-align: center;
+    background-color: rgba(43, 43, 43, 0.6);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+main img{
+    height: 300px;
+    width: auto;
+}
+#krypt01{
+    margin-right: 500px;
+    text-align: left;
+}
+#krypt02{
+    margin-left: 500px;
+    text-align: right;
+}
+#main-p{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#about-main-p{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    height: 300px;
+}
+#main-h2{
+    font-size: 30px;
+}
+#main-div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer{
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: rgba(43, 43, 43, 0.6);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+#rodape{
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: rgba(43, 43, 43, 0.6);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 70px;
+}
